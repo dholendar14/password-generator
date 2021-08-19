@@ -7,7 +7,7 @@ digits = string.digits
 symbols = string.punctuation
 
 all = lower + upper + digits + symbols
-
-temp = random.sample(all,10)
-password = "".join(temp)
-print(password)
+def password():
+    temp = random.sample(all,10)
+    password = "".join(temp)
+    return password
